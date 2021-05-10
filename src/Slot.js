@@ -47,13 +47,13 @@ export default function Slot({ available_capacity, min_age_limit, date }) {
 
   return (
     <div className={classes.displ}>
-      <div className={classes.slot} color="textSecondary" gutterBottom>
+      <div className={classes.slot} color="textSecondary">
         Date: {date}
       </div>
-      <div className={classes.slot} color="textSecondary" gutterBottom>
+      <div className={classes.slot} color="textSecondary">
         Available - {available_capacity}
       </div>
-      <div className={classes.slot} color="textSecondary" gutterBottom>
+      <div className={classes.slot} color="textSecondary">
         Min age - {min_age_limit}
       </div>
     </div>
